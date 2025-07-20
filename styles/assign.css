@@ -1,0 +1,23 @@
+
+.top{
+ display: flex;
+ justify-content: space-around;
+ color: #4E47FF;
+ background-color: #ffffff;
+ padding: 50px;
+
+ .logo{
+    font: bold;
+}
+.button{
+color: whitesmoke;
+ background-color: #4E47FF;
+ padding: 5px;
+
+}
+ 
+div{
+ display: flex;
+ justify-content: center;
+}
+
