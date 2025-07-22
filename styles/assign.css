@@ -1,6 +1,11 @@
 
 
-
+main div a{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
 
 .Raleway-normal{
   font-family: "Raleway", sans-serif;
@@ -74,16 +79,10 @@
   font-size: 42px;
  }
 
-
- .wc-mini{
-display: flex;
-align-items: flex-start;
-justify-content: right;
-gap: 40px;
-padding: 20px;
-max-width: 1200px;
-margin: auto;
-}
+ .amr-image{
+  display: flex;
+  flex-direction: row;
+ }
 
 
 .joined-box{
@@ -106,4 +105,33 @@ margin: auto;
 .third{
  color: #4E47FF;
   font-weight: bold;
+}
+}
+
+.users-list{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 25px;
+  padding: 50px;
+
+}
+
+.max{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.button-get{
+    color: white;
+    background-color: #4E47FF;
+    font-weight:bold ;
+    padding: 12px 36px;
+    border-radius: 5px;
+    border: none;
+}
+
+.rate{
+  color: dimgray;
 }
